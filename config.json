@@ -1,0 +1,34 @@
+{
+  "api_key": "AIzaSyBiec98k7jRW93j0kz2ZCxDKjbX3BdE9d0",
+  "subscribers_min": 1000,
+  "subscribers_max": 70000,
+  "min_videos": 4,
+  "max_channels_scan": 50,
+  "backend_mode": "YouTube API",
+  "ocr_enabled": true,
+  "face_detection_enabled": true,
+  "website_scraping_enabled": true,
+  "export_format": "XLSX",
+  "skip_processed": true,
+  "thresholds": {
+    "blur_variance": 100.0,
+    "contrast_low": 0.05,
+    "colorfulness_low": 20.0,
+    "max_ocr_text_length": 50,
+    "clutter_ratio": 0.15,
+    "consistency_threshold": 0.8
+  },
+  "scoring_weights": {
+    "blur_penalty": -15,
+    "contrast_penalty": -10,
+    "colorfulness_penalty": -10,
+    "ocr_penalty": -10,
+    "clutter_penalty": -8,
+    "consistency_penalty": -8,
+    "resolution_penalty": -5,
+    "email_bonus": 10,
+    "socials_bonus": 5,
+    "website_bonus": 5,
+    "improvement_bonus": 10
+  }
+}

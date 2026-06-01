@@ -1,0 +1,23 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Local database/data directories for the bot
+data/
+bot.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code and editor settings
+.vscode/
+.idea/
